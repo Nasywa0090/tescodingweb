@@ -1,0 +1,40 @@
+<DOCTYPE >
+<html>
+<head>
+    <title>Formulir Peminjaman Buku Perpustakaan</title>
+</head>
+<body>
+
+<h2>Formulir Data Peminjam Buku</h2>
+
+<form action="/pinjam" method="POST">
+
+    <label for="nama_peminjam">Nama Peminjam:</label>
+    <input type="text" id="nama_peminjam" name="nama_peminjam">
+    
+    <br>
+
+    <label for="kelas_peminjam">Kelas:</label>
+    <input type="text" id="kelas_peminjam" name="kelas_peminjam">
+
+    <br><br>
+
+    <label for="email_peminjam">Email & Password Akun:</label>
+    <br>
+    <input type="email" id="email_peminjam" name="email_peminjam" placeholder="Email">
+    <br>
+    <input type="password" id="password_peminjam" name="password_peminjam" placeholder="Password">
+
+     <br><br>
+
+    <label for="alamat_peminjam">Alamat Rumah:</label>
+    <br>
+    <textarea id="alamat_peminjam" name="alamat_peminjam" rows="4" cols="50" placeholder="Contoh: Jl. Pendidikan No. 45"></textarea>
+
+    <br><br>
+    <button type="submit">Ajukan Peminjaman</button>
+
+</form>
+
+</body>
+</html>
